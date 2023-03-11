@@ -1,4 +1,5 @@
-body {
+body 
+{
   margin: 0 auto;
   max-width: 50ch;
   padding: 5%;
@@ -7,28 +8,49 @@ body {
   font-size: 1.5rem;
   line-height: 1.6;
 }
-
-h1 {
+h1 
+{
   font-size: 175%;
 }
-
-a {
+a 
+{
   color: inherit;
   position: relative;
   text-decoration: none;
   border-bottom: 2px solid #ccc;
 }
-
-a:hover {
+a:hover 
+{
   border-color: #f18260;
 }
-
-@media (max-width: 500px) {
-  body { font-size: 1.125rem; }
+@media (max-width: 500px) 
+{
+  body 
+  {
+    font-size: 1.125rem; 
+  }
 }
-
-::selection {
+::selection 
+{
   background: #F18260;
   color: white;
 }
+.btn {
+  border-radius: 5px;
+  color: #000000;
+  font-size: 24px;
+  background: ffffff;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
 
+.btn:hover {
+  background: #000000;
+  color: white;
+  text-decoration: none;
+}
+.right_arrow
+{
+  width: 30px;
+}
